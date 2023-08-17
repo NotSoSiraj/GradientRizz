@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    color: white;
+
+}
+
+.banner {
+    width: 100%;
+    height: 153vh;
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 0px 100px;
+
+
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 9px 29px;
+}
+
+header ul li a {
+    text-decoration: none;
+
+}
+
+#navBtn {
+    background: hsla(186, 100%, 50%, 1);
+
+    background: linear-gradient(135deg, hsla(186, 100%, 50%, 1) 0%, hsla(300, 100%, 56%, 1) 100%);
+
+    background: -moz-linear-gradient(135deg, hsla(186, 100%, 50%, 1) 0%, hsla(300, 100%, 56%, 1) 100%);
+
+    background: -webkit-linear-gradient(135deg, hsla(186, 100%, 50%, 1) 0%, hsla(300, 100%, 56%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#00E5FF", endColorstr="#FF1FFF", GradientType=1);
+    padding: 9px 29px;
+    border-radius: 14px;
+}
+
+#nopadding {
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 92%;
+    gap: 77px;
+    padding: 123px 112px;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text h1 {
+    font-size: 62px;
+    line-height: 64px;
+    text-align: center;
+    background: -webkit-linear-gradient(344deg, hsl(0deg 0% 100%) 0%, hsla(238, 100%, 62%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paras {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.paras .para {
+    cursor: pointer;
+    height: 318px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 31px;
+    width: 280px;
+    background-color: #131111;
+    border-radius: 20px;
+    opacity: 0.8;
+    border: 1px solid #2a3444;
+    transition: 0.3s all ease-in-out;
+}
+
+.paras .para:hover {
+    transition: 0.3s all ease-in-out;
+    opacity: 1;
+    background: hsla(303, 100%, 50%, 1);
+
+    background: linear-gradient(135deg, hsla(303, 100%, 50%, 1) 0%, hsla(238, 100%, 62%, 1) 100%);
+
+    background: -moz-linear-gradient(135deg, hsla(303, 100%, 50%, 1) 0%, hsla(238, 100%, 62%, 1) 100%);
+
+    background: -webkit-linear-gradient(135deg, hsla(303, 100%, 50%, 1) 0%, hsla(238, 100%, 62%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF00F2", endColorstr="#3F46FF", GradientType=1);
+}
+
+.paras .para span {
+    font-size: 15px;
+    opacity: 0.8;
+    font-weight: 500;
+}
+.paras .para:hover > span {
+    opacity: 1;
+}
+
+.paras .para:hover > p {
+    opacity: 1;
+}
+.paras .para p {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons img {
+    width: 34px;
+}
+
+.icons div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: #373737;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s all ease-in-out;
+}
+
+.paras .para:hover > .icons div {
+    background-color: #373737;
+    transition: 0.3s all ease-in-out;
+}
+
+.bottomNav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    border-radius: 14px;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: black;
+}
+.bottomNav ul li {
+    list-style: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+.bottomNav ul li a {
+    text-decoration: none;
+
+}
+
+#bottomNavBtn {
+    padding: 9px 29px;
+    border-radius: 14px;
+    box-sizing: border-box;
+    transition: 0.3s all ease-in-out;
+    background: hsla(303, 100%, 50%, 1);
+
+    background: linear-gradient(135deg, hsla(303, 100%, 50%, 1) 0%, hsla(238, 100%, 62%, 1) 100%);
+
+    background: -moz-linear-gradient(135deg, hsla(303, 100%, 50%, 1) 0%, hsla(238, 100%, 62%, 1) 100%);
+
+    background: -webkit-linear-gradient(135deg, hsla(303, 100%, 50%, 1) 0%, hsla(238, 100%, 62%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF00F2", endColorstr="#3F46FF", GradientType=1);
+}
+
+.bottomNav ul span {
+    font-weight: 400;
+}
